@@ -25,8 +25,7 @@ install.packages('data.table')
 BiocManager::install("GWASTools")
 ```
 
-#### 1.2 LocusZoom
-Software [download](https://github.com/statgen/locuszoom-standalone) and [wiki](http://genome.sph.umich.edu/wiki/LocusZoom_Standalone).
+#### 1.2 LocusZoom Software [download](https://github.com/statgen/locuszoom-standalone) and [wiki](http://genome.sph.umich.edu/wiki/LocusZoom_Standalone).
 ```bash
 cd ${PIPELINE_PATH}/post-GWAS-pipeline
 wget https://statgen.sph.umich.edu/locuszoom/download/locuszoom_1.4.tgz
