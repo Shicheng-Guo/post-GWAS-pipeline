@@ -106,8 +106,7 @@ wget http://genocanyon.med.yale.edu/GNOVAFiles/genotype_1KG_eur_SNPmaf5.tar.gz
 tar xvzf genotype_1KG_eur_SNPmaf5.tar.gz
 ```
 
-#### 1.5 UTMOST
-More usage instructions can be found at https://github.com/Joker-Jerome/UTMOST.
+#### 1.5 UTMOST: More usage instructions can be found at https://github.com/Joker-Jerome/UTMOST.
 ```bash
 cd ${PIPELINE_PATH}/post-GWAS-pipeline/ ## return to post-GWAS-pipeline/
 git clone https://github.com/Joker-Jerome/UTMOST.git
