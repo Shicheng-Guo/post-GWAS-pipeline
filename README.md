@@ -31,8 +31,7 @@ cd ${PIPELINE_PATH}/post-GWAS-pipeline
 wget https://statgen.sph.umich.edu/locuszoom/download/locuszoom_1.4.tgz
 tar xvzf locuszoom_1.4.tgz
 ```
-#### 1.3 LDSC
-More info can be found on https://github.com/bulik/ldsc.
+#### 1.3 LDSC: More info can be found on https://github.com/bulik/ldsc.
 ```bash
 cd ${PIPELINE_PATH}/post-GWAS-pipeline
 ## install and setup python dependency
