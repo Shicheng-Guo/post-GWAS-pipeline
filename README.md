@@ -12,6 +12,7 @@ This repository is a pipeline built for post-GWAS analysis. With GWAS summary st
 
 ### 1. Install dependency
 ```bash
+mkdir ~/hpc/tools/
 cd ~/hpc/tools/
 git clone https://github.com/Shicheng-Guo/post-GWAS-pipeline.git
 export PATH=$PATH:~/hpc/tools/post-GWAS-pipeline
