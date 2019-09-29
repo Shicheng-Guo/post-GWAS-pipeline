@@ -1,4 +1,4 @@
-# Post-GWAS-Pipeline (PGP)
+# Post-GWAS-Pipeline (PGP, 09/29/2019)
 This repository is a pipeline built for post-GWAS analysis. With GWAS summary statistics as input, the pipeline contains four major modules:
 * *Standard GWAS analysis: Manhattan plot/QQ plot/[LocusZoom](https://genome.sph.umich.edu/wiki/LocusZoom_Standalone)*
 * *[Heritability estimation](https://github.com/bulik/ldsc)/[annotation](http://genocanyon.med.yale.edu/GenoSkyline)-stratified enrichment analysis*
@@ -18,10 +18,10 @@ export PATH=$PATH:~/hpc/tools/post-GWAS-pipeline
 ### 1. Install dependency
 #### 1.1 R related (for Standard GWAS module and extracting results)
 ```bash
-## with in R interface
+## with in R interface version: R6.0.1
 install.packages('qqman')
 install.packages('data.table')
-install.packages('GWASTools')
+BiocManager::install("GWASTools")
 ```
 
 #### 1.2 LocusZoom
