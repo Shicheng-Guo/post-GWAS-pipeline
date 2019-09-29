@@ -9,13 +9,13 @@ This repository is a pipeline built for post-GWAS analysis. With GWAS summary st
 <img src="./pipeline.png" width="900">
 
 ## Tutorial
-### Clone the repo
+
+### 1. Install dependency
 ```bash
 cd ~/hpc/tools/
 git clone https://github.com/Shicheng-Guo/post-GWAS-pipeline.git
 export PATH=$PATH:~/hpc/tools/post-GWAS-pipeline
 ```
-### 1. Install dependency
 #### 1.1 R related (for Standard GWAS module and extracting results)
 ```bash
 ## with in R interface version: R6.0.1
