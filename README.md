@@ -11,11 +11,9 @@ This repository is a pipeline built for post-GWAS analysis. With GWAS summary st
 ## Tutorial
 ### Clone the repo
 ```bash
-PIPELINE_PATH=/input the path you want to install pipeline here/
-#PIPELINE_PATH=/ysm-gpfs/pi/zhao/from_louise/yh367/pipeline_test
-cd ${PIPELINE_PATH}
-git clone https://github.com/yiminghu/post-GWAS-pipeline.git
-cd ${PIPELINE_PATH}/post-GWAS-pipeline
+cd ~/hpc/tools/
+git clone https://github.com/Shicheng-Guo/post-GWAS-pipeline.git
+export PATH=~/hpc/tools/post-GWAS-pipeline
 ```
 ### 1. Install dependency
 #### 1.1 R related (for Standard GWAS module and extracting results)
