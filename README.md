@@ -1,4 +1,4 @@
-# Post-GWAS-Pipeline (PGP, 09/29/2019 @ birc10)
+# Post-GWAS-Pipeline (PGP, 09/29/2019 @ mcri_birc10)
 Pipeline built for post-GWAS analysis with GWAS summary statistics as input, the pipeline contains four major modules:
 * *Standard GWAS analysis: Manhattan plot/QQ plot/[LocusZoom](https://genome.sph.umich.edu/wiki/LocusZoom_Standalone)*
 * *[Heritability estimation](https://github.com/bulik/ldsc)/[annotation](http://genocanyon.med.yale.edu/GenoSkyline)-stratified enrichment analysis*
